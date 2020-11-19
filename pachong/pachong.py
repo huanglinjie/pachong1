@@ -26,4 +26,4 @@ response = s.get(play_url,headers=headers).content
 #实例化网页选择器
 soup = BeautifulSoup(response,'lxml')
 main = soup.find('ul',{'class':'f-hide'})
-print(main)
+
